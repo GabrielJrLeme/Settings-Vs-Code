@@ -1,0 +1,57 @@
+{
+  //Meterial Icon Theme
+  "workbench.iconTheme": "material-icon-theme", //Temas Icones
+  //"material-icon-theme.folders.color": "#ef5350",
+  //
+  "workbench.colorTheme": "Dracula", // Thema vs code
+  "workbench.startupEditor": "newUntitledFile", //Iniciar com um novo arquivo
+  "editor.formatOnSave": true, // Formata o código sempre que salvamos
+  // Fonts
+  "editor.fontFamily": "Fira Code", //Fonte
+  "editor.fontLigatures": true, //Fira code
+  "editor.fontWeight": "normal", //Estilo de fonte
+  "editor.fontSize": 16, // Tamanho da Fonte
+  "editor.tabSize": 4, //Distancia do tab
+  "editor.lineHeight": 20, //Altura da linha
+  //
+  "editor.minimap.enabled": true, // Desabilita o Mini Map
+  "editor.minimap.showSlider": "mouseover", //Mouse sobre o mapa
+  "editor.cursorStyle": "line-thin", //Cursor
+  "editor.autoIndent": "full", //Identação
+  "editor.renderLineHighlight": "gutter", //Quadrado em volta da numeração da linha
+  "workbench.panel.defaultLocation": "bottom", // Deixa o terminal a direita
+  "terminal.integrated.cursorStyle": "underline", // Deixa o cursor do terminal como underline
+  "terminal.integrated.fontSize": 12, // Tamanho da fonte do terminal
+  "git.enableSmartCommit": true, // Habilita Smart Commit do GIT
+  "git.autofetch": true,
+  "editor.suggestSelection": "first",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  }, // Habilita Auto Fetch do GIT
+
+  //Pretties
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "crlf",
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.insertPragma": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "always",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": false
+}
